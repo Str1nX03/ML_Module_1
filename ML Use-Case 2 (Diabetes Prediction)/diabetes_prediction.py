@@ -34,7 +34,7 @@ diabetes_dataset.describe()
 diabetes_dataset['Outcome'].value_counts()
 
 # %%
-# Groub by the dataset on the basis of the target column
+# Group by the dataset on the basis of the target column
 
 diabetes_dataset.groupby('Outcome').mean()
 
